@@ -42,3 +42,7 @@ class MainActivity : ComponentActivity() {
         }
     }
 }
+
+fun help(){
+    println("Hello")
+}

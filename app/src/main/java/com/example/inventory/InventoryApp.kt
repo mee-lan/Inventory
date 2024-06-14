@@ -53,6 +53,7 @@ fun InventoryTopAppBar(
     scrollBehavior: TopAppBarScrollBehavior? = null,
     navigateUp: () -> Unit = {}
 ) {
+    Text(text = "Help")
     CenterAlignedTopAppBar(
         title = { Text(title) },
         modifier = modifier,
